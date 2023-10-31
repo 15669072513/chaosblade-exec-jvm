@@ -29,6 +29,10 @@ public abstract class AfterEnhancer implements Enhancer {
     @Override
     public void beforeAdvice(String targetName, ClassLoader classLoader, String className, Object object, Method method,
                              Object[] methodArguments) throws Exception {
+        String aa = "dd";
+        if("aa"==aa){
+            aa="cc";
+        }
         return;
     }
 
