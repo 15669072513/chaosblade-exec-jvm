@@ -32,6 +32,7 @@ public abstract class AfterEnhancer implements Enhancer {
         String aa = "dd";
         if("aa"==aa){
             aa="cc";
+            int bb=9/0;
         }
         return;
     }
